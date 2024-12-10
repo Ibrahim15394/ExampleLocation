@@ -1,0 +1,11 @@
+
+export const onBoarding1 = require("../assets/images/onBoarding1.png");
+export const onBoarding2 = require("../assets/images/onBoarding2.png");
+export const onBoarding3 = require("../assets/images/onBoarding3.png");
+
+
+export default {
+ onBoarding1,
+ onBoarding2,
+ onBoarding3
+}

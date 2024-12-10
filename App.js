@@ -3,6 +3,9 @@ import React, {useState} from 'react';
 import {NavigationContainer} from '@react-navigation/native';
 import {createNativeStackNavigator} from '@react-navigation/native-stack';
 import Tabs from './navigation/Tabs';
+import OnboardingScreen from './screens/OnBoarding/OnBoardingScreen';
+
+
 
 function App() {
   const Stack = createNativeStackNavigator();
@@ -13,6 +16,7 @@ function App() {
         screenOptions={{
           headerShown: false,
         }}>
+          <Stack.Screen name="Onboarding" component={OnboardingScreen} />
         <Stack.Screen name="Tabs" component={Tabs} />
       </Stack.Navigator>
     </NavigationContainer>
